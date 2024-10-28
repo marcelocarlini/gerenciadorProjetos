@@ -1,0 +1,18 @@
+@import "../colors";
+
+.btn{
+    background-color: $white;
+    color: $primary-normal;
+    padding: 0.7em 1.2em;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.btn:hover{
+    color: $white;  
+    background-color: $primary-dark ;
+
+}

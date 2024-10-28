@@ -1,0 +1,48 @@
+@import "./src/partials/colors";
+
+.navbar{
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+    
+
+}
+
+.list{
+    display:flex;
+    list-style: none;
+    padding: 15px;
+    
+}
+
+.list li{
+    
+    margin: 0 15px;
+    transition: transform 0.7s;
+    width: 130px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    
+    
+}
+
+.list li:hover {
+    transform: scale(1.2);
+    background-color: $white;
+    border-radius: 10px;
+    
+}
+
+.list li:active a{
+    color: $black;
+    border: none;
+}
+
+.list li a{
+    color: $white;
+}
+
+.list li:hover a{
+    color: $primary-normal;
+}

@@ -1,0 +1,13 @@
+{
+    "projects": [],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Pipe"
+        },
+        {
+            "id": 2,
+            "name": "Onsign"
+        }
+    ]
+}

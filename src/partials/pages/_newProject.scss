@@ -1,0 +1,20 @@
+@import "../colors";
+
+.newProject{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+    border: 2px solid $white ;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px $primary-dark;
+}
+
+.newProject h1{
+    margin-bottom: 0.5em;
+    font-size: 25px;
+
+}
+
+.newProject p{
+    
+}
